@@ -1,0 +1,50 @@
+@media screen and (min-width: 500px) and (max-width: 1204px) {
+  body {
+    font-size: 5px;
+
+  }
+
+  /* .container {
+    display: flex;
+    flex-direction: column
+  } */
+
+
+  .column {
+    display: flex;
+    flex-direction: column
+
+  }
+
+  .mid-name {
+    display: none
+  }
+
+  .containera {
+    grid-template-columns: 50% 50% 
+  }
+
+  .three {
+    width: 33%;
+  }
+
+
+  .left {
+    width: 75%;
+  }
+
+  .right {
+    width: 25%;
+  }
+
+  .equal {
+    width: 50%
+  }
+
+  .banner-img {
+    width: 300%;
+    height: 400px;
+
+  }
+
+}
